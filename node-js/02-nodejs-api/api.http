@@ -1,0 +1,35 @@
+### get all movies
+GET http://localhost:3000/movies
+
+### get movie by id
+GET http://localhost:3000/movies/c906673b-3948-4402-ac7f-73ac3a9e3105
+
+### get movies by a gender
+GET http://localhost:3000/movies?genre=Sci-Fi
+
+### create a movie
+POST http://localhost:3000/movies
+Content-Type: application/json
+
+{
+  "title": "Avatar",
+  "year": 2009,
+  "director": "James Cameron",
+  "duration": 162,
+  "poster": "https://i.etsystatic.com/35681979/r/il/dfe3ba/3957859451/il_fullxfull.3957859451_h27r.jpg",
+  "genre": ["Action", "Adventure", "Fantasy"],
+  "rate": 7.8
+}
+
+### Update a movie
+PATCH http://localhost:3000/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
+Content-Type: application/json
+
+{
+  "title": "The Shawshank Season 2",
+  "year": 2002,
+  "genre": ["Drama", "Crime"]
+}
+
+### Delete movie by id
+DELETE http://localhost:3000/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
