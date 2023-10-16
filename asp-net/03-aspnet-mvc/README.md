@@ -81,11 +81,6 @@ dotnet run --environment Development
 ├─ Schemas/
 │   ├─ Utils.cs
 │   └─ Validations.cs
-├─ Views/
-│   └─ index.html
-├─ Models/
-│   ├─ Languages.cs
-│   └─ Languages.json
 ├─ View/
 │   └─ index.html
 ├─ API.http
