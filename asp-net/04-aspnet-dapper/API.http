@@ -1,0 +1,33 @@
+### swagger
+GET http://localhost:3000/swagger/
+
+### All books
+GET http://localhost:3000/books
+
+### book by id
+GET http://localhost:3000/books/d61e6230-3738-46cf-bf0f-9412c27d6525
+
+### create a book
+POST http://localhost:3000/books
+Content-Type: application/json
+
+{
+  "title": "Odisea",
+  "author": "Homero",
+  "pages": 504,
+  "year": 2000
+}
+
+### update a book
+PATCH http://localhost:3000/books/d61e6230-3738-46cf-bf0f-9412c27d6525
+Content-Type: application/json
+
+{
+  "title": "Odisea",
+  "author": "Homero",
+  "pages": 504,
+  "year": 2024
+}
+
+### delete a book
+DELETE http://localhost:3000/books/d61e6230-3738-46cf-bf0f-9412c27d6525
