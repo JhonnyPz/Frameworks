@@ -1,0 +1,33 @@
+### swagger
+GET http://localhost:3000/swagger/
+
+### All books
+GET http://localhost:3000/books
+
+### book by id
+GET http://localhost:3000/books/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
+
+### books by a genre
+GET http://localhost:3000/books?genre=Sci-fi
+
+### create a book
+POST http://localhost:3000/books
+Content-Type: application/json
+
+{
+  "title": "Odisea",
+  "pages": 504,
+  "author": "Homero",
+  "genre": ["Poema épico"]
+}
+
+### update a book
+PATCH http://localhost:3000/books/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
+Content-Type: application/json
+
+{
+  "year": 2024
+}
+
+### delete a book
+DELETE http://localhost:3000/books/dcdd0fad-a94c-4810-8acc-5f108d3b18c3

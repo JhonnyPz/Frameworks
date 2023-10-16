@@ -1,0 +1,110 @@
+[
+  {
+    "id": "dcdd0fad-a94c-4810-8acc-5f108d3b18c3",
+    "title": "El Señor de los Anillos",
+    "pages": 1200,
+    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1566425108i/33.jpg",
+    "synopsis": "Una aventura épica en un mundo de fantasía llamado la Tierra Media.",
+    "year": 1954,
+    "author": "J.R.R. Tolkien",
+    "genre": [
+      "Sci-fi"
+    ]
+  },
+  {
+    "id": "5ad1a235-0d9c-410a-b32b-220d91689a08",
+    "title": "Juego de Tronos",
+    "pages": 694,
+    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1273763400i/8189620.jpg",
+    "synopsis": "En un reino donde las estaciones duran años, una batalla épica por el trono se desarrolla.",
+    "year": 1996,
+    "author": "George R. R. Martin",
+    "genre": [
+      "Fantasy"
+    ]
+  },
+  {
+    "id": "aa391090-b938-42eb-b520-86ea0aa3917b",
+    "title": "Harry Potter y la piedra filosofal",
+    "pages": 223,
+    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1550337333i/15868.jpg",
+    "synopsis": "Un niño descubre que es un mago y comienza una aventura en una escuela de magia.",
+    "year": 1997,
+    "author": "J.K. Rowling",
+    "genre": [
+      "Fantasy"
+    ]
+  },
+  {
+    "id": "b6e03689-cccd-478e-8565-d92f40813b13",
+    "title": "1984",
+    "pages": 328,
+    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1657781256i/61439040.jpg",
+    "synopsis": "Una inquietante visión de un futuro distópico y totalitario.",
+    "year": 1949,
+    "author": "George Orwell",
+    "genre": [
+      "Sci-fi"
+    ]
+  },
+  {
+    "id": "c906673b-3948-4402-ac7f-73ac3a9e3105",
+    "title": "Apocalipsis Zombie",
+    "pages": 444,
+    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1422626176i/24762432.jpg",
+    "synopsis": "Un gallego se queda en casa en pleno apocalipsis zombie y acaba casi salvando el mundo",
+    "year": 2001,
+    "author": "Manel Loreiro",
+    "genre": [
+      "Zombies"
+    ]
+  },
+  {
+    "id": "7e3fd5ab-60ff-4ae2-92b6-9597f0308d1",
+    "title": "El resplandor",
+    "pages": 688,
+    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1641398308i/60038757.jpg",
+    "synopsis": "Una familia se muda a un hotel aislado para el invierno donde una presencia siniestra influye en el padre hacia la violencia.",
+    "year": 1977,
+    "author": "Stephen King",
+    "genre": [
+      "Terror"
+    ]
+  },
+  {
+    "id": "241bf55d-b649-4109-af7c-0e6890ded3fc",
+    "title": "Drácula",
+    "pages": 418,
+    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1387151694i/17245.jpg",
+    "synopsis": "La historia del infame conde Drácula y su intento de mudarse de Transilvania a Inglaterra.",
+    "year": 1897,
+    "author": "Bram Stoker",
+    "genre": [
+      "Terror"
+    ]
+  },
+  {
+    "id": "9e6106f0-848b-4810-a11a-3d832a5610f9",
+    "title": "Frankenstein",
+    "pages": 280,
+    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1669159060i/63631742.jpg",
+    "synopsis": "Un científico obsesionado crea una criatura viva a partir de partes de cuerpos robadas, con consecuencias desastrosas.",
+    "year": 1818,
+    "author": "Mary Shelley",
+    "genre": [
+      "Terror"
+    ]
+  },
+  {
+    "id": "c8a7d63f-3b04-44d3-9d95-8782fd7dcfaf",
+    "title": "Neuromante",
+    "pages": 271,
+    "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1554437249i/6088007.jpg",
+    "synopsis": "Una visión profética de la ciber-realidad y la inteligencia artificial.",
+    "year": 1984,
+    "author": "William Gibson",
+    "genre": [
+      "Sci-fi"
+    ]
+  }
+]
