@@ -1,4 +1,4 @@
-# 03-NodeJS-MVC 
+# 04-NodeJS-MySQL
 ![Framework](https://img.shields.io/badge/Express-141414?&logo=express&logoColor=white&labelColor=339933)
 ![Languages](https://img.shields.io/badge/JavaScript-141414?&logo=javascript&logoColor=white&labelColor=F7DF1E)
 ![Database](https://img.shields.io/badge/MySQL-141414?&logo=mysql&logoColor=white&labelColor=4479A1)
