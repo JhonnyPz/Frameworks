@@ -9,19 +9,25 @@
 
 ## Description
 
-The **aspnet-dapper** project is an ASP.NET application that utilizes the Dapper ORM (Object-Relational Mapping) along with the Model-View-Controller (MVC) architecture pattern to manage a database of books. The application provides an API for accessing and manipulating book information.
+The `aspnet-dapper` project is an ASP.NET application that utilizes the **Dapper ORM** (Object-Relational Mapping) along with the Model-View-Controller (MVC) architecture pattern to manage a database of books. The application provides an API for accessing and manipulating book information.
 
 ### Key Features:
 
-1. **MVC Architecture**: The project follows the Model-View-Controller architecture pattern for clear and maintainable code organization.
+1. MVC Architecture
+1. Middlewares (CORS Policies)
+1. Dependency Injection
+1. Dapper - Minimal ORM
+1. Swagger
 
-2. **Middlewares (CORS Policies)**: Middlewares are implemented to handle Cross-Origin Resource Sharing (CORS) policies, allowing or restricting access to the API from different origins.
+## Table of Contents
 
-3. **Dependency Injection**: The dependency injection technique is employed to facilitate modularity and unit testing.
-
-4. **Dapper - Minimal ORM**: Dapper is utilized as a minimalistic Object-Relational Mapping tool for database interaction.
-
-5. **Swagger**: Swagger is integrated to provide comprehensive API documentation and testing capabilities.
+- [Description](#description)
+  - [key features](#key-features)
+  - [how to use](#how-to-use)
+  - [endpoints](#endpoints)
+- [Technologies](#technologies)
+- [Project Structure](#project-structure)
+- [Commands](#commands)
 
 ### How to Use:
 
@@ -35,6 +41,7 @@ dotnet run
 # Access the API at:
 http://localhost:3000
 ```
+
 > **Note:** To change databases from PostgreSQL to Azure SQL, modify the following line in the `Program.cs` file:
 ```CSharp
 // Data Layer
@@ -42,14 +49,16 @@ builder.Services.AddScoped<IBookRepository, AzureRepository>();
 ```
 
 ### Endpoints:
+```http
+GET /books
+GET /books/id
 
-- `GET /books`: Retrieves a list of all books.
-- `GET /books/id`: Retrieves details of a specific book.
+POST /books
+PATCH /books/id
 
-- `POST /books`: Creates a new book.
-- `PATCH /books/id`: Updates details of an existing book.
+DELETE /books/id
+```
 
-- `DELETE /books/id`: Deletes a book.
 
 > **Note:** Swagger is only enabled in the development environment
 ```bash
