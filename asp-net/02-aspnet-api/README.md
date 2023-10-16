@@ -7,15 +7,15 @@
 
 ## Description
 
-The `aspnet-api` is a C# web application built on **ASP.NET Core**. Minimal API develoment, it includes CORS handling for controlled access, supports CRUD operations, and reads from a JSON file.
+The `aspnet-api` is a C# web application built on **ASP.NET Core minimal API**, it includes CORS handling for controlled access, supports CRUD operations, and reads from a JSON file. This project is designed for flexibility and easy integration with other systems.
 
 ### Key Features:
 
-1. **Minimal API**
-1. **CORS policies**
-1. **CRUD Data**
-1. **JSON Deserialize**
-1. **Port settings**
+1. Minimal API
+1. CORS policies
+1. CRUD operations
+1. JSON deserialize
+1. Port settings
 
 ## Table of Contents
 
