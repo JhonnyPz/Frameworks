@@ -53,10 +53,10 @@ DELETE /books/id
 ```
 
 > **Note:** Swagger is only enabled in the development environment
-> ```bash
-> # Start the server with Swagger: 
-> dotnet run --environment Development
-> ```
+```bash
+# Start the server with Swagger: 
+dotnet run --environment Development
+```
 
 
 ## Technologies
