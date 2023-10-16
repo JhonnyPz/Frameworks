@@ -25,7 +25,7 @@ The `aspnet-dapper` project is an ASP.NET application that utilizes the **Dapper
   - [key features](#key-features)
   - [how to use](#how-to-use)
   - [endpoints](#endpoints)
-- [Technologies](#technologies)
+- [Technologies](#technologies-used)
 - [Project Structure](#project-structure)
 - [Commands](#commands)
 
@@ -43,7 +43,7 @@ http://localhost:3000
 ```
 
 > **Note:** To change databases from PostgreSQL to Azure SQL, modify the following line in the `Program.cs` file:
-```CSharp
+```C#
 // Data Layer
 builder.Services.AddScoped<IBookRepository, AzureRepository>();
 ```
